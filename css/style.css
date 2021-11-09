@@ -1,0 +1,194 @@
+.content { float:left; width:100%; margin:0 4%; padding: 20px 0; }
+
+/*HEADER*/
+.main_header          { background:#ffffff; border-bottom:1px #f4f4f4 solid; z-index:1; padding: 0.5em 0em; }
+.main_header .content { float:left; padding:0px 0; }
+
+.fixed            { display:block; position:fixed; z-index:9;  }
+.main_header_logo { text-align:center; margin:auto; float:none; width:438px; }
+.main_header_logo img { height249px; }
+
+/*Seu Código*/
+.section-seu-codigo          { padding:10px 0px; background-color:#f4f4f4; }
+.section-seu-codigo .content { float:left; padding:1em 0; }
+.section_title               { width: 100%; float:left; margin-bottom:1em; font-size:1.3em; font-weight: 300; text-align: center; border-bottom: 1px #eceaea solid; padding-bottom: 1em; }
+
+.box-artigo   { width:100%; float:left; }
+
+/*Profile*/
+.profile-card {
+
+  background: rgb(32,126,158);
+  background: linear-gradient(90deg, rgba(32,126,158,1) 33%, rgba(13,183,190,1) 100%);
+  box-shadow: 1px 0px 1.2px 0px #e3e3e3;
+  border-radius: 5px;
+  padding: 0;
+  font-family: 'open_sansregular';
+  position: relative;
+  float: none;
+  margin: auto;
+  min-width: 980px;
+  max-width: 630px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: 14px;
+
+}
+
+.profile-card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.profile-card .profile-image {
+    
+  display: inline-block;
+  width: 42%;
+  z-index: 1;
+  position: relative;
+  padding: 0;
+  border: 0;
+  margin-top: 50px;
+  border-radius: 53px;
+  overflow: hidden;
+  box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.59);
+  -webkit-box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.59);
+  -moz-box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.59);
+
+}
+
+.profile-card .profile-image img {
+  max-width: 75%;
+  vertical-align: top;
+
+}
+
+.profile-card figcaption {
+  width: 80%;
+  background-color: #ffffff;
+  color: #555;
+  padding: 65px 22px 22px;
+  margin-top: -60px;
+  display: inline-block;
+}
+
+.profile-card h2 {
+  
+  display:block;
+  margin-bottom:10px;   
+  font-size:1.3em;
+  font-family:'open_sansregular';
+
+}
+
+.profile-card span {
+  
+  display:block;
+  margin-bottom:5px;
+  color: #8c8c8c;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-family: 'open_sanslight';
+
+}
+
+.profile-card p {
+  float:left;
+  margin-bottom:15px;
+  font-size:1em;
+  color:#717171;
+  font-family: 'open_sanslight';
+
+}
+
+.profile-card .icons {
+  text-align: center;
+  width: 100%;
+}
+
+.profile-card i {
+  
+  padding: 10px 2px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: normal;
+  color: #207e9e;
+  transition:0.4s;
+
+}
+
+.profile-card i:hover {
+
+  color:#3cd3d7;
+
+}
+/*Profile*/
+
+/*FOOTER*/
+.main_footer          { background-color:#353535; color:#fff; font-size:0.875em; }
+.main_footer .content { padding:3em 0em; }
+
+.main_footer_copy       { background-color:#262626; width:100%; float:left; text-align:center; padding:1.5em 0em; }
+.main_footer_copy p     { font-family:'open_sanslight'; font-size:1em; color:#e1e0e0; height:20px; }
+.main_footer_copy .m-b-footer   { margin-bottom:0.5em; }
+.main_footer_copy .by   { font-size:0.96em; }
+.main_footer_copy .by i { font-size:0.96em; margin-right:3px; color:#e82626; }
+
+
+/*Começa o Responsivo*/
+
+/*480PX BREAKPOINT*/
+/*480 dividido por 16 = 30em*/
+@media (min-width:30em){
+
+.boxBannerTopo { padding:1em 0; }
+
+}
+
+/*600PX BREAKPOINT*/
+/*600 dividido por 16 = 37,5em*/
+@media (min-width:37em){
+
+
+} 
+
+/*768PX BREAKPOINT*/
+/*768 dividido por 16 = 48em*/
+@media (min-width:48em){
+
+
+} 
+
+/*960PX BREAKPOINT*/
+/*960 dividido por 16 = 60em*/
+@media (min-width:60em){
+
+ .section-seu-codigo          { padding:20px 0px; }
+ .section-seu-codigo .content { width:80%; padding:1em 0; margin:0 10%; }
+
+}
+
+/*1280PX BREAKPOINT*/
+/*1280 dividido por 16 = 80em*/
+@media (min-width:80em){
+
+ 
+}
+
+/*1366PX BREAKPOINT*/
+/*1366 dividido por 16 = 85,375em*/
+@media (min-width:85em){
+
+ .content  { width:80%; margin:0 10%; }
+
+}
+
+/*1600PX BREAKPOINT*/
+/*1600 dividido por 16 = 100em*/
+@media (min-width:100em){
+
+
+}
+/*Fecha o Responsivo*/
